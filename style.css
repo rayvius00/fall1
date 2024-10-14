@@ -1,0 +1,62 @@
+
+body{
+    background-color: rgb(254, 236, 202)
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+.fall{
+    background-image: url(fall2.png);
+    background-repeat: no-repeat;
+    min-height: 150vh;
+    min-width: 100vh;
+}
+h1{
+    color: rgb(239, 228, 209);
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container .cards .date{
+    background-color: rgb(250, 138, 1);
+    width: 120px;
+    height: 150px;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .cards .date span{
+    font-weight: 800;
+    font-size: 30px;
+    color: rgb(239, 228, 209);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 70%;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(214, 57, 0);
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(214, 57, 0);
+}
